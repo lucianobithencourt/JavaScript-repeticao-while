@@ -1,13 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>JavaScripte-repeatWhite</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Repetição-JS-While</title>
+
+
 </head>
-<body>
+
+<body style="background-color: rgb(17, 17, 68);">
+
+    <h1>Vamos Contar</h1>
+
+    <section id="contador">
+        <form action="#">
+
+            <!-- inicio -->
+            <div id="inicio">
+                <label  for="i-inicio">
+                    INICIO:
+                    <input  type="number" name="inicio" id="i-inicio">
+                </label>
+            </div>
+            <!-- fim inicio -->
+
+            <!-- fim final -->
+            <div id="fim">
+                <label for="">
+                    FIM:
+                    <input  type="number" name="fim" id="i-fim">
+                </label>
+            </div>
+
+            <!-- passos -->
+            <div id="passos">
+                <label for="i-passos">
+                    PASSOS:
+                    <input type="number" name="passos" id="i-passos">
+                </label>
+            </div>
+            <!-- fim passos -->
+
+
+            <input id="btn" type="submit" value="Contar" onclick="contar()">
+
+            <p id="resposta">------</p>
+                   
+        </form>
+
+    </section>
+
     <script src="js/script-while.js"></script>
 </body>
+
 </html>
