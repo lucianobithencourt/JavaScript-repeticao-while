@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,32 +7,21 @@
 
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 
-    <link rel="stylesheet" href="css/style.css">
 
-    <title>Repetição-JS-While</title>
-
-
+    <title>Tabuada-Simples</title>
 </head>
-
 <body>
 
-    <h1>Contagem de Número</h1>
+    Tabuada no Nº <input type="number" name="num" id="i-num" style="text-align: center;" size="10">
 
-    <form action="">
-        <p>INICIO <input type="number" name="inicio" id="i-inicio"></p>
+    <input  type="submit" value="Tabuada" onclick="calcularTabuada()"  >
 
-    <p>FIM: <input type="number" name="fim" id="i-fim"></p>
 
-    <p>PASSOS: <input type="number" name="passos" id="i-passos"></p>
 
-    <input type="submit" value="Contar" onclick="contar()">
+    <p id="res">resultado</p>
+  
 
-    <p id=resp >-----</p>
-
-    
 
     <script src="js/script-while.js"></script>
-    </form>
 </body>
-
 </html>
